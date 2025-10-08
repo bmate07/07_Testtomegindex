@@ -1,6 +1,6 @@
 <?php
-$testtomeg = (int) $_GET["testtomeg"] ?? 0;
-$magassag = (int) $_GET["magassag"] ?? 0;
+$testtomeg = (int) $_GET["testtomeg"] ?? 1;
+$magassag = (int) $_GET["magassag"] ?? 1;
 ?>
 
 <!DOCTYPE html>
