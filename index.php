@@ -43,7 +43,7 @@ $magassag = (int) $_GET["magassag"] ?? 180;
             } elseif ($bmi < 25.0) {
                 $kategoria = "Normál testsúly";
             } elseif ($bmi < 30.0) {
-                $kategoria = "Túlsúlyos (preobesitas)";
+                $kategoria = "Túlsúly";
             } elseif ($bmi < 35.0) {
                 $kategoria = "I. fokú elhízás";
             } elseif ($bmi < 40.0) {
